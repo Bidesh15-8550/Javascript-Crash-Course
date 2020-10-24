@@ -4,12 +4,14 @@ console.error('This is an error');
 console.warn('This is a warning');
 
 //let(reassign value or changeable),const(cant be changed)
+//string,numbers,boolean,null,undefined,symbol
 
-let age=30;
-age=31;
-console.log(age);
+const name= 'Biki';
+const age=24;
+const rating=4.5;
+const isCool= true;
+const x = null;
+const y= undefined;
+let z;
 
-let score;
-
-score = 10;
-console.log(score);
+console.log(typeof age);
