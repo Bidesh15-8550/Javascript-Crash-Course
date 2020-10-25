@@ -57,3 +57,19 @@ console.log(fruit);
 
 
 
+const person={
+    firstname: 'Bidesh',
+    lastname: 'Biswas',
+    age: 30,
+    hobbies: ['music', 'movies','sports'],
+    address: {
+        street: '50 main st',
+        city: 'Boston',
+        state: 'MA'
+    }
+
+}
+console.log(person.firstname,person.lastname,person.hobbies);
+console.log(person);
+
+
