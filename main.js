@@ -31,3 +31,10 @@ console.log(s.substring(0,5));
 console.log(s.substring(0,5).toUpperCase());
 console.log(s.split(''));
 
+const t = 'technology, computers,it,code';
+console.log(t.split(','));
+
+//arrays
+
+
+
