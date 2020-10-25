@@ -46,8 +46,14 @@ console.log(numbers);
 const fruits= ['apples','oranges','pears'];
 console.log(fruits);
 
-const fruit= ['apples','oranges','pears',10,true];
-console.log(fruit[0]);
+const fruit= ['apples','oranges','pears'];
+fruit[3] = 'grapes';
+fruit.push('mangoes');
+fruit.unshift('strawberries');
+fruit.pop();
+console.log(Array.isArray('hello'));
+console.log(fruit.indexOf('oranges'));
+console.log(fruit);
 
 
 
