@@ -94,5 +94,8 @@ const todos = [
 console.log(todos);
 console.log(todos[1].text);
 
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON);
+
 
 
