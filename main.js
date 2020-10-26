@@ -69,7 +69,27 @@ const person={
     }
 
 }
+person.email ='bideshbiswas@ymail.com'
 console.log(person.firstname,person.lastname,person.hobbies);
 console.log(person);
+
+const todos = [
+    {
+        id: 1,
+        text: 'Take out trash',
+        isCompleted: true
+    },
+    {
+        id: 2,
+        text: 'Meeting with boss',
+        isCompleted: true
+    },
+    {
+        id: 3,
+        text: 'Dentish appointment',
+        isCompleted: false
+    },
+
+];
 
 
