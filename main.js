@@ -97,6 +97,14 @@ console.log(todos[1].text);
 const todoJSON = JSON.stringify(todos);
 console.log(todoJSON);
 
+for(let j=0; j<todos.length;j++){
+    console.log(todos[j].text);
+}
+for(let todo of todos){
+    console.log(todo.id);
+}
+
+
 
 //For Loops
 for(let i=0;i<10;i++){
@@ -112,3 +120,4 @@ while(i<=10){
     console.log(`While Loop Number: ${i}`);
     i++
 }
+
