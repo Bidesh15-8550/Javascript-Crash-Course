@@ -101,7 +101,14 @@ console.log(todoJSON);
 //For Loops
 for(let i=0;i<10;i++){
     console.log(i);
+
     console.log(`For Loop Number: ${i}`);
-    
+
 }
 
+//while loop
+let i=0;
+while(i<=10){
+    console.log(`While Loop Number: ${i}`);
+    i++
+}
