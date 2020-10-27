@@ -121,3 +121,7 @@ while(i<=10){
     i++
 }
 
+//forEach,map,filter
+todos.forEach(function(todo){
+    console.log(todo.text);
+});
