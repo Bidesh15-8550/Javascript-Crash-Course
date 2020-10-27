@@ -1,4 +1,4 @@
-alert('Hello World');
+//alert('Hello World'); //popup message
 console.log('Hello World');
 console.error('This is an error');
 console.warn('This is a warning');
@@ -99,5 +99,7 @@ console.log(todoJSON);
 
 
 //For Loops
-
+for(let i=0;i<10;i++){
+    console.log(i);
+}
 
