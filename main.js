@@ -164,7 +164,10 @@ if(yz>5 || xy>10){
 }
 if(yz>5){
     if(xy>10){
-        
+
     }
 }
 
+const col=11;
+const color=col>10 ? 'red': 'blue';
+console.log(color);
