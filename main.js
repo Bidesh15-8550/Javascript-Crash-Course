@@ -148,4 +148,8 @@ console.log(todoCompleted);
 
 // console.log(todoCompleted);
 
+const yz = '10';
+if(yz==10){
+    console.log('yz is 10');
+}
 
