@@ -168,6 +168,17 @@ if(yz>5){
     }
 }
 
-const col=11;
+const col=9;
 const color=col>10 ? 'red': 'blue';
+switch(color){
+    case 'red':
+        console.log('color is red');
+        break;
+    case 'blue':
+        console.log('color is blue');
+        break;
+    default:
+        console.log('color is NOT red or blue');
+        break;
+}
 console.log(color);
