@@ -148,13 +148,23 @@ console.log(todoCompleted);
 
 // console.log(todoCompleted);
 
-const yz = 20;
+const yz = 4;
+const xy = 10;
 if(yz===10){
     console.log('yz is 10');
-} else if(){
-    
+} else if(yz>10){
+    console.log('yz is greater than 10');
 }
  else {
     console.log('yz is NOT 10');
+}
+
+if(yz>5 || xy>10){
+    console.log('yz is more than 5 or xy is 10');
+}
+if(yz>5){
+    if(xy>10){
+        
+    }
 }
 
