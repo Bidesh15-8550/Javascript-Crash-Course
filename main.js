@@ -209,5 +209,13 @@ console.log(adddnums(5,7));
 function Person(firstName, lastName,dob){
     this.firstName= firstName;
     this.lastName=lastName;
-    this.dob=dob;
+    this.dob=new Date(dob);
 }
+
+//itstantiate object
+
+const person1=new Person('Bidesh','Biswas','4-30-1997');
+const person2=new Person('Bidesh','Biswas','4-30-1997');
+
+
+console.log(person1);
