@@ -204,3 +204,10 @@ const adddnums = (num5=1,num6=1) => {
 }
 console.log(adddnums(5,7));
 
+
+//constructor function
+function Person(firstName, lastName,dob){
+    this.firstName= firstName;
+    this.lastName=lastName;
+    this.dob=dob;
+}
