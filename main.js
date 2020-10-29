@@ -182,3 +182,10 @@ switch(color){
         break;
 }
 console.log(color);
+
+//function
+function addNums(num1 =1,num2=2){
+    console.log(num1+num2);
+}
+
+addNums(5,4);
