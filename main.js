@@ -189,3 +189,18 @@ function addNums(num1 =1,num2=2){
 }
 
 addNums(5,4);
+
+function addNum(num3 =1,num4=2){
+   return num3+num4;
+}
+
+console.log(addNum(5,5));
+
+const addnums = (num5=1,num6=1) => console.log(num5+num6);
+addnums(5,6);
+
+const adddnums = (num5=1,num6=1) => {
+    return num5+num6;
+}
+console.log(adddnums(5,7));
+
