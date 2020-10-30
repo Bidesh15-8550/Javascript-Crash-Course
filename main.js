@@ -230,4 +230,19 @@ console.log(person2.dob.getFullYear());
 console.log(person1.getBirthYear());
 console.log(person1.getFullName());
 
+//class
+class person33{
+    constructor(firstName, lastName,dob){
+        this.firstName= firstName;
+        this.lastName=lastName;
+        this.dob=new Date(dob);
+    }
+    getBirthYear(){
+        return this.dob.getFullYear();
+    }
+    getFullName(){
+        return `${this.firstName} ${this.lastName}`;
+    }
+}
+
 
